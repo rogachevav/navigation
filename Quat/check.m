@@ -1,0 +1,11 @@
+a1=pi/4;
+a2=pi/3;
+a0=pi/6;
+q0=cos(a2)*cos(a0)*cos(a1) + sin(a2)*sin(a0)*sin(a1);
+q1=-cos(a2)*sin(a0)*cos(a1) - sin(a2)*cos(a0)*sin(a1);
+q2=-cos(a2)*cos(a0)*sin(a1) + sin(a2)*sin(a0)*cos(a1);
+q3=sin(a2)*cos(a0)*cos(a1) - cos(a2)*sin(a0)*sin(a1);
+a13=2*q1*q3+2*q0*q2
+a23=2*q2*q3-2*q0*q1
+a33=2*q0*q0+2*q3*q3-1
+a22=2*q0*q0+2*q2*q2-1
